@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/image/background .jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden; /* Removes scrollbar */
+}
+header {
+    background: rgba(245, 245, 220, 0.8); /* Semi-transparent background */
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+section {
+    padding: 20px;
+    height: 80vh; /* Full height for each section */
+}
+#about {
+    background-color: rgba(200, 162, 221, 0.8);
+    height: auto;
+}
+#skills {
+    background: rgba(189, 179, 168, 0.8);
+    height: auto;
+}
+#projects {
+    background: #d5f(255, 255, 0, 0.8);
+    height: auto;
+}
+#hobbies {
+    background: rgba(255, 182, 193, 0.8);
+    height: auto;
+}
+#gallery {
+    background: rgba(255, 182, 193, 0.8);
+    height: auto;
+}
+img {
+    max-width: 80%; /* Responsive */
+    height: 150px; /* Uniform size */
+  width :50;
+    display: block;
+    margin: 10px auto;
+    object-fit: cover; /* Ensures image looks good */
+}
